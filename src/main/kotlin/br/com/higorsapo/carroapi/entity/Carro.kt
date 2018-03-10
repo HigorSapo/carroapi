@@ -8,6 +8,7 @@ data class Carro(@Id val id: String?,
                  var marca: String,
                  var modela: String,
                  var ano: Int,
-                 var placa: String) {
+                 var placa: String,
+                 var urlImagem: String?) {
     /*constructor(): this("", "", "", 0, "")*/
 }
